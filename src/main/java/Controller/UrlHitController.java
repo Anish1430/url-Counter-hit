@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api/v1/visitor-count-app")
 
-public class UrlHitCounter {
+public class UrlHitController {
 
     @Autowired
        private UrlHitService urlHitService;
